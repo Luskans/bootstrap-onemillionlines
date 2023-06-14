@@ -1,7 +1,62 @@
 /* Vos customisations des classes de Bootstrap */
+#home {
+    background-image: url("../images/hero-image.jpg");
+}
 
+#get-involved {
+    background-color: lightgray;
+}
 
+nav a {
+    font-family: Arvo;
+    font-size: 0.8em;
+}
 
+.nav-link, h1, h2, h3{
+    font-family: Arvo;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+hr {
+    margin: auto;
+    border: none;
+    height: 3px;
+    width: 10%;
+    background: red;
+}
+
+.icones {
+    height: 80px;
+    width: 80px;
+}
+
+.icones svg {
+    fill: white;
+    height: 50px;
+    width: 50px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+
+  .back-to-top:hover {
+    background-color: #555;
+  }
 
 /* Responsive Styling */
 
